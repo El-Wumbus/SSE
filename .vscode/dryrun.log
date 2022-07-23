@@ -1,0 +1,12 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/starship-vault/documents/Git/SSE'
+mkdir -p dist/
+mkdir -p dist/lib
+# for file in src/lib/shell.c; do \
+# 	gcc $file -o dist/lib/$(scripts/replace_file_extention.py $(basename $file) .o) ; \
+# done
+gcc src/sse.c src/lib/shell.c -o dist/sse -Wall -Wextra
+# gcc  -o dist/sse.o 
+# ld -o dist/sse dist/sse.o $(ls dist/lib/*.o)
+make: Leaving directory '/mnt/starship-vault/documents/Git/SSE'
+ 

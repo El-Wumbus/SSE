@@ -1,6 +1,6 @@
 #ifndef SSE_HPP
 #define SSE_HPP
-#include "lib/shell.h++"
+#include "lib/shell.h"
 
 
 #define SSE_VERSION_MAJOR 1
