@@ -132,7 +132,7 @@ int shellcd(char **args) {
 
 int shellhelp(char **args) {
   printf("SSE (Shell Special Edition)\n");
-  return 0;
+  printf("cd, help, and exit are bult-in functions\n");
 }
 
 int shellexit(char **args) { return 0; }
